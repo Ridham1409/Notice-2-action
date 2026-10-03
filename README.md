@@ -1,8 +1,5 @@
 **👉 https://notice2action.netlify.app**
 
-"""
-new = """## 🎥 Product Demo & Video Walkthrough
-
 ### 🚀 Live Application
 **👉 https://notice2action.netlify.app/**
 

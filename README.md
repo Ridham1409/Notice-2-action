@@ -1,3 +1,25 @@
+**👉 https://notice2action.netlify.app**
+
+"""
+new = """## 🎥 Product Demo & Video Walkthrough
+
+### 🚀 Live Application
+**👉 https://notice2action.netlify.app/**
+
+### ▶️ Watch the Full Product Walkthrough
+
+**🎬 New here? Watch this video first to understand the product, workflow, AI features, and overall user experience.**
+
+<p align="center">
+  <a href="https://youtu.be/l8BEqQ748bw">
+    <img src="https://img.youtube.com/vi/l8BEqQ748bw/maxresdefault.jpg" alt="Notice2Action Product Walkthrough" width="820" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/l8BEqQ748bw"><strong>▶ Watch Notice2Action on YouTube</strong></a>
+</p>
+
 # Notice2Action
 
 > **From Government Notice to Student Action.**  

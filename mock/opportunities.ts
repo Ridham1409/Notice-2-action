@@ -613,5 +613,176 @@ export const mockOpportunities: Opportunity[] = [
     last_verified: '2026-10-03',
     matchReason: 'Semester examinations for GTU degree and diploma engineering students.',
     matchScore: 85
+  },
+  {
+    id: 'SCH-MKKN-2026',
+    title: 'Mukhyamantri Kanya Kelavani Nidhi (MKKN)',
+    subtitle: 'Supplementary Tuition Aid for Female MBBS Students',
+    type: 'scholarship',
+    authority: 'Education Department, Government of Gujarat',
+    department: 'Knowledge Consortium of Gujarat (KCG) / Higher Education Branch',
+    scope: 'Gujarat',
+    status: 'OPEN',
+    urgencyLevel: 'high',
+    schedule: {
+      academic_year: '2026-27',
+      opening_date: '2026-08-01',
+      original_deadline: '2026-10-31',
+      final_deadline: '2026-10-31',
+      verification_deadline: '2026-11-15',
+      date_status: 'OFFICIALLY_CONFIRMED',
+      days_remaining: 28,
+    },
+    extension_status: 'NO_EXTENSION_ANNOUNCED',
+    target_students: ['Female MBBS students in Government, GMERS, and Self-Financed Medical Colleges'],
+    education_levels: ['UG', 'Professional Courses'],
+    eligibility: {
+      academic: 'Admitted into MBBS program via state quota medical counselling (percentile threshold waived).',
+      income: 'Family annual income <= ₹6,00,000.',
+      domicile: 'Permanent resident female student of Gujarat.'
+    },
+    benefits: {
+      tuition:
+        'Supplemental grant up to ₹4,00,000/yr (combined with MYSY ₹2,00,000 to cover up to ₹6,00,000/yr total tuition fee).',
+      hostel: 'Governed by MYSY hostel rules (₹12,000/yr).',
+      books_equipment: 'Governed by MYSY equipment rules (₹10,000 one-time).'
+    },
+    required_documents: [
+      'NEET Scorecard',
+      'ACPUGMEC Medical Allotment Letter',
+      'College Tuition Fee Receipt',
+      'Income Certificate (Mamlatdar/TDO)',
+      'Domicile Certificate'
+    ],
+    sources: [
+      {
+        label: 'MYSY / MKKN Official Portal',
+        url: 'https://mysy.guj.nic.in/',
+        source_level: 'OFFICIAL_PRIMARY'
+      }
+    ],
+    official_source_found: true,
+    official_source_url: 'https://mysy.guj.nic.in/',
+    source_level: 'OFFICIAL_PRIMARY',
+    last_verified: '2026-10-03',
+    matchScore: 60
+  },
+  {
+    id: 'SCHM-NAMO-KAUSHALYA',
+    title: 'Namo Kaushalya Lakshmi Yojana',
+    subtitle: 'Stipend & Completion Incentive for Female ITI Trainees',
+    type: 'scheme',
+    authority: 'Labour, Skill Development and Employment Department / DET',
+    scope: 'Gujarat',
+    status: 'OPEN',
+    urgencyLevel: 'medium',
+    schedule: {
+      academic_year: '2026-27',
+      rounds_info: 'Active enrollment across Government ITIs (AY 2026-27)',
+      date_status: 'OFFICIALLY_CONFIRMED',
+    },
+    extension_status: 'NO_EXTENSION_ANNOUNCED',
+    target_students: ['Female trainees enrolled in Government ITIs pursuing NCVT/SCVT trades'],
+    education_levels: ['Diploma', 'Vocational'],
+    eligibility: {
+      academic: 'Enrolled female trainee in approved NCVT/SCVT trade; minimum 80% attendance.',
+    },
+    benefits: {
+      total_assistance: '₹15,000 (1-yr trade) or up to ₹24,000 (2-yr trade)',
+      details: '₹750/month stipend plus ₹9,000 completion bonus on passing final trade assessment.'
+    },
+    required_documents: ['ITI Admission Receipt', 'Aadhaar linked bank account', 'Attendance Record'],
+    sources: [
+      {
+        label: 'Directorate of Employment & Training',
+        url: 'https://talim.gujarat.gov.in/',
+        source_level: 'OFFICIAL_PRIMARY'
+      }
+    ],
+    official_source_found: true,
+    official_source_url: 'https://talim.gujarat.gov.in/',
+    source_level: 'OFFICIAL_PRIMARY',
+    last_verified: '2026-10-03',
+    matchScore: 45
+  },
+  {
+    id: 'ADM-GCAS-2026',
+    title: 'Gujarat Common Admission Services (GCAS)',
+    subtitle: 'Unified Single-Window Admission for 15+ State Public Universities',
+    type: 'admission',
+    authority: 'Department of Higher Education, Government of Gujarat',
+    scope: 'Gujarat',
+    status: 'OPEN',
+    urgencyLevel: 'medium',
+    schedule: {
+      academic_year: '2026-27',
+      rounds_info: 'Phase-specific rounds active; UG Regular portal window extended to 2026-11-30',
+      date_status: 'OFFICIALLY_CONFIRMED',
+    },
+    extension_status: 'CONFIRMED_EXTENSION',
+    target_students: ['Students seeking BA, B.Com, B.Sc, BBA, BCA, B.Ed, and PG degrees in Gujarat public universities'],
+    education_levels: ['UG', 'PG'],
+    eligibility: {
+      academic: 'Qualifying Class 12 or Bachelor degree from recognized board/university.',
+    },
+    benefits: {
+      details: 'Single centralized registration replacing individual applications to Gujarat University, VNSGU, Saurashtra University, etc.'
+    },
+    required_documents: ['Class 12 / Graduation Marksheet', 'School Leaving Certificate', 'Category Certificate if applicable'],
+    sources: [
+      {
+        label: 'GCAS Official Portal',
+        url: 'https://gcas.gujgov.edu.in/',
+        source_level: 'OFFICIAL_PRIMARY'
+      }
+    ],
+    official_source_found: true,
+    official_source_url: 'https://gcas.gujgov.edu.in/',
+    source_level: 'OFFICIAL_PRIMARY',
+    last_verified: '2026-10-03',
+    matchScore: 75
+  },
+  {
+    id: 'EX-GSSSB-CCE-2026',
+    title: 'GSSSB Combined Competitive Examination (CCE Advt 378/2025-26)',
+    subtitle: '7,338 Class-III Clerical & Executive Posts',
+    type: 'exam',
+    authority: 'Gujarat Subordinate Service Selection Board (GSSSB)',
+    scope: 'Gujarat',
+    status: 'UPCOMING',
+    urgencyLevel: 'medium',
+    schedule: {
+      academic_year: '2025-26',
+      rounds_info: 'Application completed March 2, 2026; Computer-Based CBRT Tests scheduled',
+      date_status: 'OFFICIALLY_CONFIRMED',
+    },
+    extension_status: 'CONFIRMED_EXTENSION',
+    historical_extension_pattern: 'Vacancies officially expanded from 5,370 to 7,338 posts with deadline extended to March 2, 2026.',
+    target_students: ['Graduates seeking Gujarat state subordinate executive & clerical appointments'],
+    education_levels: ['UG', 'PG'],
+    eligibility: {
+      academic: 'Graduate in any discipline; basic computer knowledge certificate (CCC).',
+    },
+    benefits: {
+      details: 'Permanent recruitment across 7,338 state departmental posts.'
+    },
+    required_documents: ['GSSSB Confirmation Number', 'OJAS Admit Card', 'Photo ID'],
+    sources: [
+      {
+        label: 'GSSSB Exam Calendar',
+        url: 'https://gsssb.gujarat.gov.in/Calender',
+        source_level: 'OFFICIAL_PRIMARY'
+      },
+      {
+        label: 'OJAS Gujarat Portal',
+        url: 'https://ojas.gujarat.gov.in/',
+        source_level: 'OFFICIAL_PRIMARY'
+      }
+    ],
+    official_source_found: true,
+    official_source_url: 'https://gsssb.gujarat.gov.in/Calender',
+    source_level: 'OFFICIAL_PRIMARY',
+    last_verified: '2026-10-03',
+    matchScore: 50
   }
 ];

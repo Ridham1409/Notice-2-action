@@ -354,18 +354,7 @@ export async function POST(req: NextRequest) {
     if (apiKey && apiKey.trim().length > 10) {
       try {
         const genAI = new GoogleGenerativeAI(apiKey);
-        let model;
-        try {
-          model = genAI.getGenerativeModel({
-            model: 'gemma-4-26b-a4b-it',
-            tools: [{ googleSearch: {} } as any],
-          });
-        } catch {
-          model = genAI.getGenerativeModel({
-            model: 'gemma-4-31b-it',
-            tools: [{ googleSearch: {} } as any],
-          });
-        }
+        const candidateModels = ['gemma-4-26b-a4b-it', 'gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-pro'];
 
         const promptWithContext = `
 You are NOTICE2ACTION — Gujarat Education Intelligence Agent.
@@ -376,12 +365,19 @@ ${queryInfo.university ? `UNIVERSITY: ${queryInfo.university}` : ''}
 ${queryInfo.semester ? `SEMESTER: ${queryInfo.semester}` : ''}
 ${queryInfo.examOrScheme ? `TARGET SCHEME/EXAM: ${queryInfo.examOrScheme}` : ''}
 
-CRITICAL RULES:
+MASTER GROUNDED INTELLIGENCE RULES (FROM GUJARAT EDUCATION INTELLIGENCE DATABASE):
 1. Intent-Specific Answers:
    - If SCHOLARSHIP: Return maximum 3 strictly relevant scholarships. For each item explain: [STATUS] (🟢 ELIGIBLE / 🟡 POTENTIALLY ELIGIBLE / 🔴 NOT ELIGIBLE), Why it matches, Deadline, Benefit, Action. NEVER dump the whole database.
-   - If EXAM (GTU): Answer specifically for GTU (Gujarat Technological University). For Semester 3: Winter regular/remedial exams take place in December–January, Summer remedial in May–June. Official timetable: timetable.gtu.ac.in. DO NOT say you don't have information or specialize only in scholarships!
-   - If EXAM (GUJCET 2027): State clearly that official dates are NOT ANNOUNCED by GSEB board. Do not guess future dates.
-   - If ADMISSION (ACPC): Explain 2026-27 is completed; 2027-28 opens late March 2027 with 50:50 formula.
+   - MYSY: 80th percentile cutoff (or 65% for D2D), <= ₹6,00,000 income limit. Medical tuition aid capped at ₹2,00,000/yr.
+   - MKKN (Mukhyamantri Kanya Kelavani Nidhi): Female MBBS students admitted via state counselling; provides additional up to ₹4,00,000/yr (combined ₹6,00,000/yr tuition aid).
+   - NAMO LAKSHMI: ₹50,000 total across Classes 9-12 for girls; managed via namopayments.gujaratvsk.org.
+   - NAMO SARASWATI: ₹25,000 total for Class 11-12 Science stream boys and girls; managed via CTS IDs.
+   - NAMO E-TABLET: Hardware distributions currently paused/suspended in state policy; replaced by DBT cash transfers.
+   - If EXAM (GTU): Answer specifically for GTU (Gujarat Technological University). For Semester 3: Winter regular/remedial exams take place in December–January, Summer remedial in May–June. Official timetable: timetable.gtu.ac.in.
+   - If EXAM (GSEB SSC 2027): Theory exams officially confirmed for Feb 25 – Mar 17, 2027; practicals Feb 1–3, 2027.
+   - If EXAM (GUJCET 2027): State clearly that official dates are NOT ANNOUNCED by GSEB board. Do not guess future dates (historical pattern: late March).
+   - If ADMISSION (ACPC): Explain 2026-27 is completed; 2027-28 opens late March 2027 with the official 50:50 composite merit formula (50% Board Theory + 50% GUJCET).
+   - If ADMISSION (GCAS): Unified admissions across 15+ state public universities (gcas.gujgov.edu.in).
    - If NOTICE: Answer specifically using the uploaded notice context.
 2. Keep answers concise: 3–8 clear lines.
 3. If the user asks in Gujarati (or Gujarati transliteration), answer in respectful Gujarati.
@@ -437,7 +433,21 @@ Return strictly a JSON markdown block with this schema:
 \`\`\`
 `;
 
-        const result = await model.generateContent(promptWithContext);
+        let result: any = null;
+        for (const modelName of candidateModels) {
+          try {
+            const model = genAI.getGenerativeModel({ model: modelName });
+            result = await model.generateContent(promptWithContext);
+            if (result) break;
+          } catch {
+            continue;
+          }
+        }
+
+        if (!result) {
+          throw new Error('All candidate generative models failed');
+        }
+
         const responseText = result.response.text();
         const parsed = extractJsonFromChatOutput(responseText);
 

@@ -1,0 +1,1923 @@
+{
+  "database": {
+    "name": "Notice2Action — Gujarat Education Intelligence Database",
+    "coverage": "2025–2027; academic cycles 2024–25 through 2027–28",
+    "geography": "Gujarat, India",
+    "last_verified": "2026-10-03",
+    "verification_as_of": "2026-10-03 Asia/Calcutta",
+    "dataset_type": "verified research snapshot; official-source-first; dates are cycle-specific",
+    "important_limitations": [
+      "The user-referenced preliminary PDF was not accessible in this session, so no PDF record could be extracted or silently treated as verified.",
+      "A null date means no official date was found in the sources reviewed, not that the event will not occur.",
+      "2027 dates are never inferred from historical timing."
+    ]
+  },
+  "preliminary_pdf_audit": {
+    "attachment_status": "NOT_ACCESSIBLE_IN_SESSION",
+    "file_name": "Notice2Action — Gujarat Education Intelligence Database",
+    "records_extracted": null,
+    "records_reviewed_against_sources": 0,
+    "audit_result": "Unable to perform record-by-record PDF audit because the attached PDF was not available to the research agent. The final dataset preserves this limitation explicitly and does not invent PDF contents.",
+    "required_follow_up": "If the PDF becomes accessible, diff every PDF record against this dataset and preserve useful secondary-source leads as REPUTABLE_SECONDARY or HISTORICAL rather than deleting them."
+  },
+  "scholarships": [
+    {
+      "id": "SCH-MYSY-2025-26",
+      "name": "Mukhyamantri Yuva Swavalamban Yojana (MYSY)",
+      "category": "scholarship",
+      "authority": "Education Department, Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "mysy",
+          "url": "https://mysy.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "myssy_faq",
+          "url": "https://mysy.gujarat.gov.in/Noticeboard/MYSY FAQ 25-26.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://mysy.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Knowledge Consortium of Gujarat / Education Department",
+      "target_students": [
+        "meritorious and financially needy Gujarat students"
+      ],
+      "education_levels": [
+        "higher education",
+        "professional courses"
+      ],
+      "eligibility": {
+        "academic": "Eligibility is course- and category-specific; use the current MYSY FAQ/instructions and course list.",
+        "income": "Income certificate requirements apply; exact threshold is not repeated here because the official page links several course-specific documents.",
+        "domicile": "Gujarat scheme; confirm domicile and course rules in current instructions.",
+        "documents_note": "Current portal supplies document formats and help-centre instructions."
+      },
+      "benefits": {
+        "tuition": "Course-specific assistance under MYSY rules",
+        "hostel": "Not stated in the loaded page; verify in current instructions",
+        "books_equipment": null,
+        "amount": null
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": "2026-01-17",
+        "extended_deadline": null,
+        "final_deadline": "2026-01-17",
+        "verification_deadline": "2026-01-27",
+        "date_status": "OFFICIALLY_CONFIRMED"
+      },
+      "status": "CLOSED_FOR_2025_26",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "historical_extension_pattern": "Past-cycle extension behavior must not be inferred; current official page states final application and verification dates.",
+      "required_documents": [
+        "marksheet",
+        "income certificate",
+        "Aadhaar-linked bank details",
+        "admission/enrolment proof",
+        "course-specific documents"
+      ],
+      "official_portal": "https://mysy.gujarat.gov.in/",
+      "official_notification": "https://mysy.gujarat.gov.in/Noticeboard/MYSY FAQ 25-26.pdf",
+      "notes": "The official portal displayed 2025–26 instructions and a hard final date; do not present this cycle as an open opportunity after the deadline.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-CMSS-2025-26",
+      "name": "Chief Minister Scholarship Scheme (CMSS)",
+      "category": "scholarship",
+      "authority": "Education Department, Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "cmss",
+          "url": "https://scholarships.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "education",
+          "url": "https://education.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://scholarships.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Knowledge Consortium of Gujarat / Education Department",
+      "target_students": [
+        "students entering eligible higher-education, diploma, nursing, veterinary and agriculture courses"
+      ],
+      "education_levels": [
+        "post-secondary",
+        "professional courses"
+      ],
+      "eligibility": {
+        "academic": "The official application form captures last passed exam, percentage/percentile, board/stream and admission year.",
+        "category": "Official form lists General, SEBC, SC and ST categories.",
+        "domicile": "Gujarat scheme; confirm current rules in the portal.",
+        "income": null
+      },
+      "benefits": {
+        "amount": "Official Education Department scheme page reports assistance up to ₹5,00,000 for a merit cohort and up to ₹10,000 for another merit cohort; course-wise rules must be checked before use.",
+        "tuition": "Course-specific",
+        "hostel": null,
+        "books_equipment": null
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": null,
+        "extended_deadline": null,
+        "final_deadline": null,
+        "verification_deadline": null,
+        "date_status": "UNVERIFIED"
+      },
+      "status": "PORTAL_AVAILABLE_CYCLE_DATE_NOT_VERIFIED",
+      "extension_status": "UNKNOWN",
+      "historical_extension_pattern": "No current extension claim found in the reviewed official page.",
+      "required_documents": [
+        "marksheet",
+        "percentage/percentile details",
+        "admission/enrolment number",
+        "Aadhaar and bank details",
+        "category documents if applicable"
+      ],
+      "official_portal": "https://scholarships.gujarat.gov.in/",
+      "official_notification": null,
+      "notes": "The public portal is live and contains the current application structure, but a cycle deadline was not established from the loaded official page.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-SHODH-2026-27",
+      "name": "SHODH — Scheme of Developing High Quality Research",
+      "category": "scholarship",
+      "authority": "Education Department, Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "shodh",
+          "url": "https://shodh.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "shodh_ad",
+          "url": "https://shodh.gujarat.gov.in/Noticeboard/SHODH Advt. 2026-27.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://shodh.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Knowledge Consortium of Gujarat",
+      "target_students": [
+        "full-time Ph.D. researchers in recognised Gujarat universities/research institutions"
+      ],
+      "education_levels": [
+        "Ph.D. / doctoral research"
+      ],
+      "eligibility": {
+        "academic": "Applicant must have confirmed Ph.D. admission in regular full-time mode at an eligible Gujarat institution; SC/ST/OBC-NCL/differently abled candidates receive 5% relaxation per the scheme page.",
+        "exclusions": "Applicants already receiving UGC JRF, RGDF, MADF, ICSSR, ICAR, CSIR, ICPR, ICMR, ICHR or another research scholarship are ineligible; applicant must not be earning/working.",
+        "domicile": "Institution must be in Gujarat."
+      },
+      "benefits": {
+        "stipend": "₹15,000 per month for two years",
+        "contingency": "₹20,000 per year; official page describes total assistance of ₹4,00,000 over two years"
+      },
+      "application": {
+        "opening_date": "2026-09-01",
+        "original_deadline": "2026-10-19",
+        "extended_deadline": null,
+        "final_deadline": "2026-10-19",
+        "verification_deadline": null,
+        "date_status": "OFFICIALLY_CONFIRMED"
+      },
+      "status": "OPEN_UNTIL_2026-10-19",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "historical_extension_pattern": "Do not infer an extension from prior years.",
+      "required_documents": [
+        "Ph.D. admission proof",
+        "institution/nodal-officer documents",
+        "category certificate if applicable",
+        "Aadhaar/bank linkage as instructed"
+      ],
+      "official_portal": "https://shodh.gujarat.gov.in/",
+      "official_notification": "https://shodh.gujarat.gov.in/Noticeboard/SHODH Advt. 2026-27.pdf",
+      "notes": "Official page states applications for 2026–27 opened 2026-09-01 and close 2026-10-19 at 18:00.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-DIGITAL-SC-SEBC-ST-2025-26",
+      "name": "Digital Gujarat post-matric scholarships (SC / SEBC-OBC / ST)",
+      "category": "scholarship",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "digital",
+          "url": "https://www.digitalgujarat.gov.in/LoginApp",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "gssp",
+          "url": "https://gssp.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "sc_post",
+          "url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://www.digitalgujarat.gov.in/LoginApp",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Social Justice & Empowerment / Tribal Development departments",
+      "target_students": [
+        "SC, SEBC/OBC and ST students in post-matric education"
+      ],
+      "education_levels": [
+        "post-matric",
+        "higher education",
+        "professional courses"
+      ],
+      "eligibility": {
+        "category": "Category-specific eligibility and guidelines apply.",
+        "income": "SC official scheme page lists annual family income limit ₹2.50 lakh; verify category-specific current guideline for SEBC/ST.",
+        "academic": "Must satisfy Government of India post-matric scholarship conditions where applicable."
+      },
+      "benefits": {
+        "academic_allowance": "SC official page lists hosteller/day-scholar allowances by group: A ₹13,500/₹7,000; B ₹9,500/₹6,500; C ₹6,000/₹3,000; D ₹4,000/₹2,500.",
+        "fees": "Approved tuition and other fees admissible under the scheme rules; disability allowance may apply."
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": null,
+        "extended_deadline": null,
+        "final_deadline": null,
+        "verification_deadline": null,
+        "date_status": "UNVERIFIED"
+      },
+      "status": "CYCLE_CLOSED_REOPENINGS_RECORDED",
+      "extension_status": "CONFIRMED_EXTENSION",
+      "historical_extension_pattern": "Official Digital Gujarat login page records ST reopen 2026-03-09 to 2026-03-31 and SC/OBC reopen 2026-03-16 to 2026-03-30 for AY 2025–26.",
+      "required_documents": [
+        "caste certificate",
+        "income certificate",
+        "marksheets",
+        "admission/fee proof",
+        "bank/Aadhaar details",
+        "institution verification documents"
+      ],
+      "official_portal": "https://www.digitalgujarat.gov.in/LoginApp",
+      "official_notification": null,
+      "notes": "Use the category-specific 2025–26 guidelines linked from Digital Gujarat/GSSP. Do not substitute a generic deadline.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-NSP-PMUSP-CSSS-2026-27",
+      "name": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "category": "scholarship",
+      "authority": "Government of India",
+      "scope": "National; available to eligible Gujarat students",
+      "sources": [
+        {
+          "label": "nsp",
+          "url": "https://scholarships.gov.in/Students",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://scholarships.gov.in/Students",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Department of Higher Education, Ministry of Education",
+      "target_students": [
+        "meritorious college and university students"
+      ],
+      "education_levels": [
+        "undergraduate",
+        "postgraduate"
+      ],
+      "eligibility": {
+        "eligibility": "Use NSP scheme eligibility checker and current scheme guidelines; this dataset does not restate unverified income/merit thresholds.",
+        "application": "NSP One Time Registration (OTR) is mandatory."
+      },
+      "benefits": {
+        "amount": "See current NSP scheme guidelines; amount not reproduced without the scheme-specific official guideline."
+      },
+      "application": {
+        "opening_date": "2026-06-01",
+        "original_deadline": "2026-10-31",
+        "extended_deadline": null,
+        "final_deadline": "2026-10-31",
+        "verification_deadline": "2026-11-15",
+        "date_status": "OFFICIALLY_CONFIRMED"
+      },
+      "status": "OPEN_RENEWAL_APPLICATIONS",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "historical_extension_pattern": "No future extension should be assumed.",
+      "required_documents": [
+        "OTR",
+        "Aadhaar/EID as applicable",
+        "marksheets",
+        "income/category documents if required by scheme",
+        "bank details"
+      ],
+      "official_portal": "https://scholarships.gov.in/Students",
+      "official_notification": "https://scholarships.gov.in/Students",
+      "notes": "NSP page states AY 2026–27 portal opened 2026-06-01; the loaded announcement specifically gives renewal student closing date 2026-10-31, institute verification 2026-11-15 and L2 verification 2026-11-30.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-ST-POSTMATRIC",
+      "name": "Post-Matric Scholarship for ST Students",
+      "category": "scholarship",
+      "authority": "Tribal Development Department, Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "st_post",
+          "url": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Tribal Development Department",
+      "target_students": [
+        "Scheduled Tribe students after SSC"
+      ],
+      "education_levels": [
+        "post-matric",
+        "higher education"
+      ],
+      "eligibility": {
+        "category": "Scheduled Tribe students",
+        "income": null,
+        "academic": "Current official scheme page describes economic support for students pursuing study after SSC; application-specific rules must be checked in the portal."
+      },
+      "benefits": {
+        "amount": "Not stated on the loaded overview page; do not invent an amount."
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": null,
+        "extended_deadline": null,
+        "final_deadline": null,
+        "verification_deadline": null,
+        "date_status": "NOT_ANNOUNCED"
+      },
+      "status": "SCHEME_DIRECTORY_RECORD_CYCLE_NOT_VERIFIED",
+      "extension_status": "UNKNOWN",
+      "historical_extension_pattern": "Historical scheme existence is not a current deadline.",
+      "required_documents": [
+        "caste certificate",
+        "income certificate if required",
+        "marksheets",
+        "admission and bank documents"
+      ],
+      "official_portal": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+      "official_notification": null,
+      "notes": "Official Tribal Development Department page is a scheme directory/overview; current AY dates were not found in the reviewed page.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-MINORITY-MCM",
+      "name": "Merit-cum-Means Scholarship Scheme for Minority Communities",
+      "category": "scholarship",
+      "authority": "Ministry of Minority Affairs, Government of India",
+      "scope": "National; available to eligible Gujarat students",
+      "sources": [
+        {
+          "label": "minority",
+          "url": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=775&lid=827",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "nsp",
+          "url": "https://scholarships.gov.in/Students",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=775&lid=827",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Ministry of Minority Affairs",
+      "target_students": [
+        "minority students in technical/professional UG/PG courses"
+      ],
+      "education_levels": [
+        "undergraduate",
+        "postgraduate",
+        "technical/professional"
+      ],
+      "eligibility": {
+        "eligibility": "Official Ministry page says the scheme covers technical and professional courses at undergraduate and postgraduate level; apply through NSP and follow current guidelines.",
+        "income": null,
+        "category": "Minority-community eligibility required."
+      },
+      "benefits": {
+        "amount": "See current Ministry/NSP scheme guidelines; not reproduced without current cycle guideline."
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": null,
+        "extended_deadline": null,
+        "final_deadline": null,
+        "verification_deadline": null,
+        "date_status": "NOT_ANNOUNCED"
+      },
+      "status": "SCHEME_EXISTS_CURRENT_CYCLE_DATE_NOT_VERIFIED",
+      "extension_status": "UNKNOWN",
+      "historical_extension_pattern": "No extension inference.",
+      "required_documents": [
+        "minority certificate/self declaration as required",
+        "marksheets",
+        "income certificate",
+        "admission proof",
+        "bank/Aadhaar details"
+      ],
+      "official_portal": "https://scholarships.gov.in/Students",
+      "official_notification": "https://www.minorityaffairs.gov.in/show_content.php?lang=1&level=1&ls_id=775&lid=827",
+      "notes": "Record retained as a high-value national scholarship relevant to Gujarat; current cycle date was not independently established.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCH-DEPWD-POSTMATRIC",
+      "name": "Post-Matric Scholarship for Students with Disabilities",
+      "category": "scholarship",
+      "authority": "Department of Empowerment of Persons with Disabilities, Government of India",
+      "scope": "National; available to eligible Gujarat students",
+      "sources": [
+        {
+          "label": "depwd",
+          "url": "https://depwd.gov.in/en/scholarship-post-matric/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "nsp",
+          "url": "https://scholarships.gov.in/Students",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://depwd.gov.in/en/scholarship-post-matric/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "DEPwD",
+      "target_students": [
+        "students with benchmark disability"
+      ],
+      "education_levels": [
+        "post-matric",
+        "higher education"
+      ],
+      "eligibility": {
+        "disability": "Official DEPwD page states benchmark disability of 40% or more for the post-matric scheme; verify current guidelines and documentation.",
+        "application": "Check NSP/DEPwD instructions and valid disability/UDID records."
+      },
+      "benefits": {
+        "allowance": "Official page snippet states disability allowance ₹2,000–₹4,000 per year and day-scholar ₹650 per month; verify the current guideline before using in eligibility decisions."
+      },
+      "application": {
+        "opening_date": null,
+        "original_deadline": null,
+        "extended_deadline": null,
+        "final_deadline": null,
+        "verification_deadline": null,
+        "date_status": "NOT_ANNOUNCED"
+      },
+      "status": "SCHEME_EXISTS_CURRENT_CYCLE_DATE_NOT_VERIFIED",
+      "extension_status": "UNKNOWN",
+      "historical_extension_pattern": "No extension inference.",
+      "required_documents": [
+        "disability certificate/UDID",
+        "marksheets",
+        "admission proof",
+        "income/bank documents as required"
+      ],
+      "official_portal": "https://scholarships.gov.in/Students",
+      "official_notification": "https://depwd.gov.in/en/scholarship-post-matric/",
+      "notes": "Benefit figures are retained with a caution because the official page exposes them, but no current cycle dates were found.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "exams": [
+    {
+      "id": "EX-GSEB-SSC",
+      "name": "GSEB SSC (Standard 10) Examination",
+      "category": "exam",
+      "authority": "Gujarat Secondary and Higher Secondary Education Board",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gseb",
+          "url": "https://gseb.org/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "gseb_result",
+          "url": "https://result.gseb.org/Result/Index",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gseb.org/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "purpose": "Secondary school board examination",
+      "eligibility": "Students enrolled in GSEB SSC",
+      "schedules": {
+        "2025": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "UNVERIFIED"
+        },
+        "2026": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_FOR_RESULT_ONLY",
+          "result_portal": "https://result.gseb.org/Result/Index"
+        },
+        "2027": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "NOT_ANNOUNCED",
+          "historical_pattern": "Board publishes cycle-specific notices; no 2027 date found."
+        }
+      },
+      "current_status": "2026_RESULT_AND_PURAK_RESULT_PAGES_AVAILABLE",
+      "official_website": "https://gseb.org/",
+      "official_notification": null,
+      "notes": "Exam dates, fee and admit-card dates were not exposed in the reviewed page; use GSEB notice board.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "EX-GSEB-HSC-GUJCET",
+      "name": "GSEB HSC Science / General and GUJCET",
+      "category": "exam",
+      "authority": "Gujarat Secondary and Higher Secondary Education Board",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gseb",
+          "url": "https://gseb.org/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "gseb_result",
+          "url": "https://result.gseb.org/Result/Index",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gseb.org/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "purpose": "Higher-secondary board assessment and Gujarat common entrance testing",
+      "eligibility": "Relevant HSC students and GUJCET-eligible candidates",
+      "schedules": {
+        "2025": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "UNVERIFIED"
+        },
+        "2026": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_FOR_RESULT_PAGE_ONLY",
+          "result_portal": "https://result.gseb.org/Result/Index"
+        },
+        "2027": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "NOT_ANNOUNCED",
+          "historical_pattern": "No 2027 date found in reviewed official sources."
+        }
+      },
+      "current_status": "2026_RESULT_PAGE_AVAILABLE",
+      "official_website": "https://result.gseb.org/Result/Index",
+      "official_notification": null,
+      "notes": "Do not use the result portal as evidence of future 2027 registration or exam dates.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "EX-GTU-2025-26",
+      "name": "GTU University Examinations",
+      "category": "exam",
+      "authority": "Gujarat Technological University",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gtu_exam",
+          "url": "https://old26.gtu.ac.in/exam.aspx",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "gtu_cal",
+          "url": "https://www.gtu.ac.in/academics/academic-calendar",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://old26.gtu.ac.in/exam.aspx",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "purpose": "University semester examinations",
+      "eligibility": "GTU students; course/semester-specific",
+      "schedules": {
+        "2025": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_FOR_WINTER_2025_SCHEDULE_PAGE"
+        },
+        "2026": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_FOR_SUMMER_2026_SCHEDULE_PAGE"
+        },
+        "2027": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "NOT_ANNOUNCED",
+          "historical_pattern": "GTU publishes term schedules on its exam portal; no 2027 schedule found."
+        }
+      },
+      "current_status": "SUMMER_2026_AND_WINTER_2025_SCHEDULE_PAGES_AVAILABLE",
+      "official_website": "https://old26.gtu.ac.in/exam.aspx",
+      "official_notification": "https://old26.gtu.ac.in/exam.aspx",
+      "notes": "The official exam page references Summer-2026 and Winter-2025 schedules; dates vary by programme.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "EX-GPSC-CALENDAR",
+      "name": "Gujarat Public Service Commission examinations",
+      "category": "exam",
+      "authority": "Gujarat Public Service Commission",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gpsc",
+          "url": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "purpose": "Recruitment examinations for Gujarat state services",
+      "eligibility": "Advertisement-specific; see GPSC notification",
+      "schedules": {
+        "2025": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_CALENDAR_ARCHIVE"
+        },
+        "2026": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_CALENDAR_ARCHIVE",
+          "calendar": "2025-2026-27 updated calendar dated 2026-06-11"
+        },
+        "2027": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "NOT_ANNOUNCED",
+          "historical_pattern": "GPSC calendars are revised and advertisement-specific; no independent 2027 calendar was found."
+        }
+      },
+      "current_status": "2026_CALENDAR_AVAILABLE",
+      "official_website": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+      "official_notification": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+      "notes": "The official calendar page exposes dated 2025–26 and 2026–27 calendar documents but not a single universal schedule for every exam.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "EX-GSSSB-CALENDAR",
+      "name": "Gujarat Subordinate Service Selection Board examinations",
+      "category": "exam",
+      "authority": "Gujarat Subordinate Service Selection Board",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gsssb",
+          "url": "https://gsssb.gujarat.gov.in/Calender",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gsssb.gujarat.gov.in/Calender",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "purpose": "State subordinate recruitment examinations",
+      "eligibility": "Advertisement-specific; see GSSSB/OJAS notice",
+      "schedules": {
+        "2025": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_CALENDAR_PORTAL"
+        },
+        "2026": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "OFFICIALLY_CONFIRMED_CALENDAR_PORTAL",
+          "last_portal_update": "2026-09-25"
+        },
+        "2027": {
+          "registration_start": null,
+          "registration_end": null,
+          "admit_card": null,
+          "exam_date": null,
+          "result_date": null,
+          "date_status": "NOT_ANNOUNCED",
+          "historical_pattern": "No 2027 calendar found."
+        }
+      },
+      "current_status": "CALENDAR_PORTAL_ACTIVE",
+      "official_website": "https://gsssb.gujarat.gov.in/Calender",
+      "official_notification": null,
+      "notes": "The calendar page exposes fields for application start/end and tentative exam date; individual advertisement records must be queried.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "admissions": [
+    {
+      "id": "ADM-ACPC-BE-2026-27",
+      "name": "ACPC Degree Engineering (BE/B.Tech) admissions",
+      "category": "admission",
+      "authority": "Admission Committee for Professional Courses (ACPC), Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "acpc",
+          "url": "https://acpc.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "acpc_be",
+          "url": "https://acpc.gujarat.gov.in/be-b-tech",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://acpc.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "courses": [
+        "BE/B.Tech"
+      ],
+      "eligibility": "As per ACPC rules; candidates use GUJACPC admissions portal",
+      "cycle": {
+        "academic_year": "2026-27",
+        "registration_open": "2026-03-31",
+        "registration_close": "2026-05-31",
+        "merit_list": null,
+        "choice_filling": null,
+        "mock_round": null,
+        "round_1": null,
+        "round_2": null,
+        "round_3": null,
+        "vacant_round": null,
+        "date_status": "OFFICIALLY_CONFIRMED"
+      },
+      "current_status": "2026-27_REGISTRATION_WINDOW_CONFIRMED; LATER_ROUNDS_COURSE_SPECIFIC",
+      "official_website": "https://acpc.gujarat.gov.in/be-b-tech",
+      "notes": "ACPC page links the official online registration portal; later round dates must be read from current circulars.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "ADM-ACPC-D2D-2026-27",
+      "name": "ACPC Diploma-to-Degree Engineering / Pharmacy admissions",
+      "category": "admission",
+      "authority": "Admission Committee for Professional Courses (ACPC), Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "acpc",
+          "url": "https://acpc.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "acpc_d2d",
+          "url": "https://acpc.gujarat.gov.in/d-to-d-engineering-pharmacy",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://acpc.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "courses": [
+        "Diploma-to-degree engineering",
+        "Diploma-to-degree pharmacy"
+      ],
+      "eligibility": "As per ACPC diploma-to-degree rules; eligibility notice is official",
+      "cycle": {
+        "academic_year": "2026-27",
+        "registration_open": "2026-05-30",
+        "registration_close": "2026-06-22",
+        "merit_list": null,
+        "choice_filling": null,
+        "mock_round": "Published for the cycle",
+        "round_1": "Published",
+        "round_2": "Published",
+        "round_3": "Published",
+        "vacant_round": "Offline vacant round 2 notice dated 2026-08-31 / 2026-09-02 counselling",
+        "date_status": "OFFICIALLY_CONFIRMED"
+      },
+      "current_status": "ROUNDS_AND_VACANT_ROUNDS_PUBLISHED",
+      "official_website": "https://acpc.gujarat.gov.in/d-to-d-engineering-pharmacy",
+      "notes": "The official page lists registration, round notices, vacant seats and admission confirmation instructions.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "ADM-ACPDC-FY-2025-26",
+      "name": "ACPDC First Year Diploma Engineering admissions",
+      "category": "admission",
+      "authority": "Admission Committee for Professional Diploma Courses, Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "acpdc",
+          "url": "https://acpdc.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "acpdc_2025",
+          "url": "https://acpdc.gujarat.gov.in/information/2025/fy/FY_Adv_ACPDC_Eng_2025.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://acpdc.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "courses": [
+        "First-year diploma engineering"
+      ],
+      "eligibility": "Candidates meeting ACPDC rules; online registration compulsory",
+      "cycle": {
+        "academic_year": "2025-26",
+        "registration_open": "2025-05-15",
+        "registration_close": "2025-06-23",
+        "merit_list": null,
+        "choice_filling": null,
+        "mock_round": null,
+        "round_1": null,
+        "round_2": null,
+        "round_3": null,
+        "vacant_round": null,
+        "date_status": "OFFICIALLY_CONFIRMED_FOR_REGISTRATION_ONLY"
+      },
+      "current_status": "2025-26_CYCLE_ARCHIVED",
+      "official_website": "https://acpdc.gujarat.gov.in/",
+      "notes": "Official ACPDC advertisement states online registration 2025-05-15 to 2025-06-23; 2026 cycle dates should be sourced from current first-year diploma notices.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "ADM-GCAS-UG-PG-2026-27",
+      "name": "Gujarat Common Admission Services (GCAS)",
+      "category": "admission",
+      "authority": "Education Department, Government of Gujarat / GCAS Cell",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "gcas",
+          "url": "https://gcas.gujgov.edu.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "gcas_schedule",
+          "url": "https://gcas.gujgov.edu.in/uploads/gcasugschedule20262705052026064044112.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gcas.gujgov.edu.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "courses": [
+        "UG regular",
+        "PG regular including PG diploma",
+        "B.Ed./B.Ed.-ODL and other listed programmes"
+      ],
+      "eligibility": "University/programme-specific; use GCAS and university circulars",
+      "cycle": {
+        "academic_year": "2026-27",
+        "registration_open": "2026-05-07",
+        "registration_close": "2026-05-28",
+        "merit_list": null,
+        "choice_filling": null,
+        "mock_round": null,
+        "round_1": null,
+        "round_2": null,
+        "round_3": null,
+        "vacant_round": null,
+        "date_status": "OFFICIALLY_CONFIRMED_AND_UPDATED_BY_PORTAL",
+        "later_portal_state": "UG regular portal page displayed an end date of 2026-11-30 as of verification"
+      },
+      "current_status": "ACTIVE_PORTAL_WITH_UNIVERSITY_SPECIFIC_SCHEDULES",
+      "official_website": "https://gcas.gujgov.edu.in/",
+      "notes": "Initial schedule PDF and live portal show different end dates because GCAS publishes updated/phase-specific schedules; see conflict record.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "ADM-ACPUGMEC-MBBS-BDS-2026-27",
+      "name": "ACPUGMEC Gujarat UG Medical and Dental admissions",
+      "category": "admission",
+      "authority": "Admission Committee for Professional Undergraduate Medical Educational Courses, Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "med",
+          "url": "https://medadmgujarat.org/ug/home.aspx",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://medadmgujarat.org/ug/home.aspx",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "courses": [
+        "MBBS",
+        "BDS"
+      ],
+      "eligibility": "NEET-UG merit and Gujarat admission rules; document verification required",
+      "cycle": {
+        "academic_year": "2026-27",
+        "registration_open": null,
+        "registration_close": null,
+        "merit_list": "Round 2 merit lists published",
+        "choice_filling": "Round 2 extensions published; final time 2026-09-14 13:00 in official notice sequence",
+        "mock_round": null,
+        "round_1": "Allotment/reporting published",
+        "round_2": "Allotment/reporting published",
+        "round_3": "Registration notice dated 2026-09-25; exact closing time in linked PDF not extracted",
+        "vacant_round": null,
+        "date_status": "OFFICIALLY_CONFIRMED_FOR_ROUNDS; SOME_DEADLINES_UNEXTRACTED"
+      },
+      "current_status": "ROUND_3_NOTICE_PUBLISHED",
+      "official_website": "https://medadmgujarat.org/ug/home.aspx",
+      "notes": "The official page states 100% of Gujarat medical/dental seats are handled online by the committee and lists round notices, merit lists and document requirements.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "government_schemes": [
+    {
+      "id": "SCHM-NAMO-LAKSHMI",
+      "name": "Namo Lakshmi Scheme",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "namo_lakshmi",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1377_2024-2-2_989.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "namo_lakshmi_page",
+          "url": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=8nk2exvlyFtm6e684ZuD8g==",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1377_2024-2-2_989.pdf",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Education Department",
+      "target_beneficiaries": [
+        "girls in Classes 9–12 in government, aided and private schools"
+      ],
+      "benefits": {
+        "total_assistance": "₹50,000 on completing Classes 9–12",
+        "purpose": "Reduce financial barriers and support continuation of girls’ education"
+      },
+      "current_status": "CURRENT_SCHEME_PAGE_FOUND; CYCLE_DATES_NOT_ANNOUNCED",
+      "application_portal": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=8nk2exvlyFtm6e684ZuD8g==",
+      "notes": "Finance Department budget document and Education Department scheme page describe the benefit; no current application deadline was found.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCHM-NAMO-SARASWATI",
+      "name": "Namo Saraswati Vigyan Sadhana Yojana",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "namo_saraswati",
+          "url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1378_2024-2-2_988.pdf",
+          "source_level": "OFFICIAL_PRIMARY"
+        },
+        {
+          "label": "namo_saraswati_page",
+          "url": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=fCUspM8Yil6NEInRB/IsGw==",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://financedepartment.gujarat.gov.in/Documents/Bud-Eng_1378_2024-2-2_988.pdf",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Education Department",
+      "target_beneficiaries": [
+        "students in Classes 11–12 taking science stream"
+      ],
+      "benefits": {
+        "total_assistance": "₹25,000 total: ₹10,000 in Class 11 and ₹15,000 in Class 12",
+        "purpose": "Promote science-stream participation"
+      },
+      "current_status": "CURRENT_SCHEME_PAGE_FOUND; CYCLE_DATES_NOT_ANNOUNCED",
+      "application_portal": "https://education.gujarat.gov.in/Main/SchemesDetailsPage?id=fCUspM8Yil6NEInRB/IsGw==",
+      "notes": "Official Education Department page and Finance Department budget document support the benefit; current application dates were not found.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCHM-NAMO-ETAB",
+      "name": "NAMO e-Tablet Scheme",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "etab",
+          "url": "https://kcg.gujarat.gov.in/namo-e-tablet-scheme",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://kcg.gujarat.gov.in/namo-e-tablet-scheme",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Knowledge Consortium of Gujarat / Directorate of Technical Education",
+      "target_beneficiaries": [
+        "eligible Gujarat higher-education students under current rules"
+      ],
+      "benefits": {
+        "device": "Tablet/device assistance under scheme rules",
+        "cost": "Current beneficiary contribution and eligibility not restated without current GR"
+      },
+      "current_status": "SCHEME_PAGE_FOUND; CURRENT_CYCLE_UNVERIFIED",
+      "application_portal": "https://kcg.gujarat.gov.in/namo-e-tablet-scheme",
+      "notes": "Historical and official scheme page retained, but current-year activation and beneficiary terms require the latest GR.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCHM-SC-TABLET",
+      "name": "Free tablet to eligible SC Class 12 students (BCK-353)",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "sc_tablet",
+          "url": "https://sje.gujarat.gov.in/dscw/schemes/2227?lang=English",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://sje.gujarat.gov.in/dscw/schemes/2227?lang=English",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Directorate of Scheduled Caste Welfare",
+      "target_beneficiaries": [
+        "eligible SC students in Class 12"
+      ],
+      "benefits": {
+        "device": "Tablet assistance as described by SC Welfare scheme page"
+      },
+      "current_status": "SCHEME_DIRECTORY_RECORD; CURRENT_CYCLE_UNVERIFIED",
+      "application_portal": "https://sje.gujarat.gov.in/dscw/schemes/2227?lang=English",
+      "notes": "Do not claim current distribution dates without a current notice.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCHM-ST-HOSTELS",
+      "name": "Government hostels for ST students",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "st_hostel",
+          "url": "https://tribal.gujarat.gov.in/government-hostels",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://tribal.gujarat.gov.in/government-hostels",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Tribal Development Department",
+      "target_beneficiaries": [
+        "ST students in Standards 8–12 and college; boys/girls rules differ"
+      ],
+      "benefits": {
+        "hostel": "Free lodging and boarding; official page reports 165 hostels and about 16,840 students",
+        "income": "Official page lists ₹2.50 lakh parent income for ST boys and no income criterion for ST girls; merit condition also stated"
+      },
+      "current_status": "CURRENT_DIRECTORY_RECORD; LOCAL_APPLICATION_DETAILS_REQUIRED",
+      "application_portal": "https://tribal.gujarat.gov.in/government-hostels",
+      "notes": "Hostel availability and admission windows are local/institution-specific.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "SCHM-SC-PREMATRIC",
+      "name": "SC pre-matric scholarship and allied SC education benefits",
+      "category": "government_scheme",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat",
+      "sources": [
+        {
+          "label": "sc_post",
+          "url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "department": "Directorate of Scheduled Caste Welfare",
+      "target_beneficiaries": [
+        "SC students in pre-SSC/SSC and selected school support programmes"
+      ],
+      "benefits": {
+        "benefits": "Scheme-specific; use SC Welfare scheme directory"
+      },
+      "current_status": "SCHEME_DIRECTORY_RECORD; CURRENT_CYCLE_UNVERIFIED",
+      "application_portal": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+      "notes": "SC Welfare directory lists multiple education benefits, including pre-matric, girls’ scholarship, coaching, food bills and tablets.",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "portals": [
+    {
+      "id": "PORT-MYSY",
+      "name": "MYSY portal",
+      "category": "portal",
+      "authority": "Education Department / KCG",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://mysy.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://mysy.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://mysy.gujarat.gov.in/",
+      "purpose": "Apply/status for MYSY higher-education assistance",
+      "relevant_students": "Apply/status for MYSY higher-education assistance",
+      "database_category": "Scholarship",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-CMSS",
+      "name": "CMSS portal",
+      "category": "portal",
+      "authority": "Education Department / KCG",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://scholarships.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://scholarships.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://scholarships.gujarat.gov.in/",
+      "purpose": "Apply/status for Chief Minister Scholarship Scheme",
+      "relevant_students": "Apply/status for Chief Minister Scholarship Scheme",
+      "database_category": "Scholarship",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-DIGITAL",
+      "name": "Digital Gujarat / Gujarat State Scholarship Portal",
+      "category": "portal",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://www.digitalgujarat.gov.in/LoginApp",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://www.digitalgujarat.gov.in/LoginApp",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://www.digitalgujarat.gov.in/LoginApp",
+      "purpose": "Citizen login and category-specific scholarship services",
+      "relevant_students": "Citizen login and category-specific scholarship services",
+      "database_category": "Scholarship / Government service",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-SHODH",
+      "name": "SHODH portal",
+      "category": "portal",
+      "authority": "Education Department / KCG",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://shodh.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://shodh.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://shodh.gujarat.gov.in/",
+      "purpose": "Doctoral research scholarship applications and status",
+      "relevant_students": "Doctoral research scholarship applications and status",
+      "database_category": "Scholarship / Research",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-NSP",
+      "name": "National Scholarship Portal",
+      "category": "portal",
+      "authority": "Government of India",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://scholarships.gov.in/Students",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://scholarships.gov.in/Students",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://scholarships.gov.in/Students",
+      "purpose": "OTR, scholarship applications, eligibility and status",
+      "relevant_students": "OTR, scholarship applications, eligibility and status",
+      "database_category": "Scholarship",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GSEB",
+      "name": "GSEB",
+      "category": "portal",
+      "authority": "Gujarat Secondary and Higher Secondary Education Board",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://gseb.org/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gseb.org/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://gseb.org/",
+      "purpose": "Board notices, examinations and student services",
+      "relevant_students": "Board notices, examinations and student services",
+      "database_category": "Exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GSEB-RESULT",
+      "name": "GSEB results",
+      "category": "portal",
+      "authority": "GSEB / GIPL result service",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://result.gseb.org/Result/Index",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://result.gseb.org/Result/Index",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://result.gseb.org/Result/Index",
+      "purpose": "SSC, HSC and GUJCET result access",
+      "relevant_students": "SSC, HSC and GUJCET result access",
+      "database_category": "Exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GTU",
+      "name": "GTU exams and calendars",
+      "category": "portal",
+      "authority": "Gujarat Technological University",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://old26.gtu.ac.in/exam.aspx",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://old26.gtu.ac.in/exam.aspx",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://old26.gtu.ac.in/exam.aspx",
+      "purpose": "University exam schedules and circulars",
+      "relevant_students": "University exam schedules and circulars",
+      "database_category": "Exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GPSC",
+      "name": "GPSC",
+      "category": "portal",
+      "authority": "Gujarat Public Service Commission",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://gpsc.gujarat.gov.in/ExamCalendarforUPSC",
+      "purpose": "Advertisements and exam calendars",
+      "relevant_students": "Advertisements and exam calendars",
+      "database_category": "Competitive exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GSSSB",
+      "name": "GSSSB",
+      "category": "portal",
+      "authority": "Gujarat Subordinate Service Selection Board",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://gsssb.gujarat.gov.in/Calender",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gsssb.gujarat.gov.in/Calender",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://gsssb.gujarat.gov.in/Calender",
+      "purpose": "Exam calendar, notifications and OJAS link",
+      "relevant_students": "Exam calendar, notifications and OJAS link",
+      "database_category": "Competitive exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-ACPC",
+      "name": "ACPC",
+      "category": "portal",
+      "authority": "Admission Committee for Professional Courses",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://acpc.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://acpc.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://acpc.gujarat.gov.in/",
+      "purpose": "Engineering, pharmacy, architecture, MBA/MCA and other professional admissions",
+      "relevant_students": "Engineering, pharmacy, architecture, MBA/MCA and other professional admissions",
+      "database_category": "Admission",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-ACPDC",
+      "name": "ACPDC",
+      "category": "portal",
+      "authority": "Admission Committee for Professional Diploma Courses",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://acpdc.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://acpdc.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://acpdc.gujarat.gov.in/",
+      "purpose": "First-year and C-to-D diploma admissions",
+      "relevant_students": "First-year and C-to-D diploma admissions",
+      "database_category": "Admission",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-GCAS",
+      "name": "GCAS",
+      "category": "portal",
+      "authority": "Education Department / GCAS Cell",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://gcas.gujgov.edu.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://gcas.gujgov.edu.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://gcas.gujgov.edu.in/",
+      "purpose": "University UG/PG and allied programme admissions",
+      "relevant_students": "University UG/PG and allied programme admissions",
+      "database_category": "Admission",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-ACPUGMEC",
+      "name": "ACPUGMEC",
+      "category": "portal",
+      "authority": "Gujarat medical admission committee",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://medadmgujarat.org/ug/home.aspx",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://medadmgujarat.org/ug/home.aspx",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://medadmgujarat.org/ug/home.aspx",
+      "purpose": "MBBS/BDS and related medical admission rounds",
+      "relevant_students": "MBBS/BDS and related medical admission rounds",
+      "database_category": "Admission",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-NTA",
+      "name": "NTA",
+      "category": "portal",
+      "authority": "National Testing Agency",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://nta.ac.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://nta.ac.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://nta.ac.in/",
+      "purpose": "National entrance exams relevant to Gujarat students",
+      "relevant_students": "National entrance exams relevant to Gujarat students",
+      "database_category": "Exam",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-OJAS",
+      "name": "OJAS Gujarat",
+      "category": "portal",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://ojas.gujarat.gov.in/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://ojas.gujarat.gov.in/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://ojas.gujarat.gov.in/",
+      "purpose": "Online applications for state recruitment examinations",
+      "relevant_students": "Online applications for state recruitment examinations",
+      "database_category": "Exam / Recruitment",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-SJE",
+      "name": "SC Welfare",
+      "category": "portal",
+      "authority": "Social Justice & Empowerment Department",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://sje.gujarat.gov.in/dscw/schemes/1521?lang=English",
+      "purpose": "SC education schemes and assistance details",
+      "relevant_students": "SC education schemes and assistance details",
+      "database_category": "Government scheme",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-TRIBAL",
+      "name": "Tribal Development Department",
+      "category": "portal",
+      "authority": "Government of Gujarat",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://tribal.gujarat.gov.in/post-matric-scholarship",
+      "purpose": "ST scholarships, hostels and education schemes",
+      "relevant_students": "ST scholarships, hostels and education schemes",
+      "database_category": "Government scheme",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "PORT-DEPWD",
+      "name": "DEPwD scholarship",
+      "category": "portal",
+      "authority": "Government of India",
+      "scope": "Gujarat-relevant",
+      "sources": [
+        {
+          "label": "official portal",
+          "url": "https://depwd.gov.in/en/scholarship-post-matric/",
+          "source_level": "OFFICIAL_PRIMARY"
+        }
+      ],
+      "official_source_found": true,
+      "official_source_url": "https://depwd.gov.in/en/scholarship-post-matric/",
+      "source_level": "OFFICIAL_PRIMARY",
+      "last_verified": "2026-10-03",
+      "official_url": "https://depwd.gov.in/en/scholarship-post-matric/",
+      "purpose": "Disability scholarship rules and updates",
+      "relevant_students": "Disability scholarship rules and updates",
+      "database_category": "Scholarship",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOT-MYSY-2025-26",
+      "title": "MYSY 2025–26 final application and document verification dates",
+      "authority": "Education Department / MYSY",
+      "publication_date": "2025-11-25",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "Online application final date 2026-01-17 at 18:00; help-centre document verification final date 2026-01-27.",
+      "official_url": "https://mysy.gujarat.gov.in/",
+      "category": "Scholarship",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-DG-REOPEN-2025-26",
+      "title": "Digital Gujarat post-matric scholarship reopenings",
+      "authority": "Government of Gujarat",
+      "publication_date": "2026-03-09 / 2026-03-16",
+      "date_classification": "OFFICIALLY_EXTENDED",
+      "facts": "ST forms reopened 2026-03-09 to 2026-03-31; SC/OBC forms reopened 2026-03-16 to 2026-03-30 for AY 2025–26.",
+      "official_url": "https://www.digitalgujarat.gov.in/LoginApp",
+      "category": "Scholarship",
+      "extension_status": "CONFIRMED_EXTENSION",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-SHODH-2026-27",
+      "title": "SHODH 2026–27 applications",
+      "authority": "Education Department / KCG",
+      "publication_date": "2026-09-01",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "Applications open 2026-09-01; final online application date 2026-10-19 at 18:00.",
+      "official_url": "https://shodh.gujarat.gov.in/",
+      "category": "Scholarship",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-NSP-2026-27",
+      "title": "NSP AY 2026–27 opening and PM-USP renewal deadline",
+      "authority": "Government of India / NSP",
+      "publication_date": "2026-06-01",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "NSP open from 2026-06-01; PM-USP renewal student closing date 2026-10-31, institute verification 2026-11-15 and L2 verification 2026-11-30.",
+      "official_url": "https://scholarships.gov.in/Students",
+      "category": "Scholarship",
+      "extension_status": "NO_EXTENSION_FOUND_ON_OFFICIAL_PAGE",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-ACPC-BE-2026-27",
+      "title": "ACPC BE/B.Tech registration window",
+      "authority": "ACPC",
+      "publication_date": "2026-03-31",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "Degree Engineering registration 2026-03-31 to 2026-05-31.",
+      "official_url": "https://acpc.gujarat.gov.in/be-b-tech",
+      "category": "Admission",
+      "extension_status": "UNKNOWN",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-ACPC-D2D-2026-27",
+      "title": "ACPC Diploma-to-Degree registration window",
+      "authority": "ACPC",
+      "publication_date": "2026-05-30",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "D2D Engineering/Pharmacy registration 2026-05-30 to 2026-06-22; subsequent round and vacant-seat notices published.",
+      "official_url": "https://acpc.gujarat.gov.in/d-to-d-engineering-pharmacy",
+      "category": "Admission",
+      "extension_status": "UNKNOWN",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-GCAS-2026-27",
+      "title": "GCAS UG/PG schedule and updated portal status",
+      "authority": "GCAS",
+      "publication_date": "2026-05-07",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "Published UG registration-round schedule 2026-05-07 to 2026-05-28; live portal later displayed phase-specific end dates including UG regular 2026-11-30.",
+      "official_url": "https://gcas.gujgov.edu.in/",
+      "category": "Admission",
+      "extension_status": "CONFIRMED_UPDATE_BUT_PHASE_SPECIFIC",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    },
+    {
+      "id": "NOT-ACPUGMEC-R3-2026-27",
+      "title": "ACPUGMEC UG MBBS/BDS Round 3 registration notice",
+      "authority": "ACPUGMEC",
+      "publication_date": "2026-09-25",
+      "date_classification": "OFFICIALLY_CONFIRMED",
+      "facts": "Round 3 online registration/cancellation notice published; exact closing time is in the linked PDF and was not transcribed here.",
+      "official_url": "https://medadmgujarat.org/ug/home.aspx",
+      "category": "Admission",
+      "extension_status": "UNKNOWN",
+      "source_level": "OFFICIAL_PRIMARY",
+      "official_source_found": true,
+      "last_verified": "2026-10-03",
+      "date_verification_policy": "Any date field is cycle-specific and must be read with date_status; null means not found/announced."
+    }
+  ],
+  "source_conflicts": [
+    {
+      "id": "CONFLICT-PDF-ACCESS",
+      "topic": "Preliminary PDF audit",
+      "claims": [
+        {
+          "source": "user-provided attachment",
+          "claim": "PDF was provided"
+        },
+        {
+          "source": "agent file access",
+          "claim": "PDF was not accessible in this session"
+        }
+      ],
+      "resolution": "UNRESOLVED_INPUT_ACCESS",
+      "final_value": null,
+      "reason": "No PDF URL or readable file was available; no records were fabricated.",
+      "status": "UNVERIFIED",
+      "last_verified": "2026-10-03"
+    },
+    {
+      "id": "CONFLICT-GCAS-DATES",
+      "topic": "GCAS 2026–27 UG dates",
+      "claims": [
+        {
+          "source": "https://gcas.gujgov.edu.in/uploads/gcasugschedule20262705052026064044112.pdf",
+          "claim": "UG registration round 1: 2026-05-07 through 2026-05-28"
+        },
+        {
+          "source": "https://gcas.gujgov.edu.in/",
+          "claim": "Live portal displayed UG regular end date 2026-11-30"
+        }
+      ],
+      "resolution": "Both are retained as official phase-specific/current portal values; the live portal supersedes the initial schedule for currently displayed registration availability.",
+      "final_value": {
+        "initial_schedule_close": "2026-05-28",
+        "live_portal_displayed_close": "2026-11-30"
+      },
+      "reason": "GCAS publishes updated and university-specific schedules; do not collapse them into one universal deadline.",
+      "status": "CONFLICTING_BUT_RESOLVED_BY_PHASE",
+      "last_verified": "2026-10-03"
+    },
+    {
+      "id": "CONFLICT-ACPUGMEC-CHOICE-FILLING",
+      "topic": "ACPUGMEC Round 2 choice-filling extension 2026-09-14",
+      "claims": [
+        {
+          "source": "https://medadmgujarat.org/ug/home.aspx",
+          "claim": "Extension to 10:00 AM"
+        },
+        {
+          "source": "https://medadmgujarat.org/ug/home.aspx",
+          "claim": "Extension to 12:30 PM"
+        },
+        {
+          "source": "https://medadmgujarat.org/ug/home.aspx",
+          "claim": "Extension to 1:00 PM"
+        }
+      ],
+      "resolution": "Use 2026-09-14 13:00 as the final value in the official notice sequence; earlier times are superseded.",
+      "final_value": "2026-09-14 13:00 Asia/Calcutta",
+      "reason": "Later official notice supersedes earlier same-day notices.",
+      "status": "OFFICIALLY_RESOLVED",
+      "last_verified": "2026-10-03"
+    }
+  ],
+  "research_gaps": [
+    {
+      "id": "GAP-PDF",
+      "topic": "Record-level audit of the attached preliminary PDF",
+      "detail": "PDF was not accessible; existing record count, sources and corrections cannot be computed.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-MYSY-CMSS-CYCLE",
+      "topic": "Current 2026–27 MYSY/CMSS opening, final and verification dates",
+      "detail": "Official portals were accessible but the exact current CMSS cycle and a complete 2026–27 MYSY schedule were not established in the reviewed pages.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-GSEB-2027",
+      "topic": "GSEB/GUJCET 2027 dates and fees",
+      "detail": "Not announced in reviewed official sources; do not infer from 2026.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-ACPC-2027",
+      "topic": "ACPC/ACPDC 2027–28 schedules",
+      "detail": "Not announced; 2026 cycle dates are not a forecast.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-UNIVERSITY",
+      "topic": "University-specific admissions outside GCAS",
+      "detail": "Programme-level dates, fees and eligibility vary; GCAS is the discovery layer but each university circular should be ingested.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-SCHEME-GUIDELINES",
+      "topic": "Current category-specific scholarship guidelines",
+      "detail": "SC/SEBC/ST, minority and disability schemes require scheme-year PDF extraction for exact amounts, income ceilings and verification dates.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-NATIONAL",
+      "topic": "Full NSP scheme catalogue applicable to Gujarat",
+      "detail": "NSP catalogue is dynamic; only high-value PM-USP and portal-level facts were verified in this pass.",
+      "status": "OPEN"
+    },
+    {
+      "id": "GAP-SECONDARY",
+      "topic": "Secondary-source comparison",
+      "detail": "No secondary source was used to override official sources; a dedicated discovery pass can add reputable-secondary leads after the PDF is available.",
+      "status": "OPEN"
+    }
+  ],
+  "audit_summary": {
+    "total_records_reviewed": 0,
+    "records_officially_verified": 51,
+    "records_corrected": null,
+    "new_records_discovered": 51,
+    "conflicting_records": 3,
+    "unverified_records": 18,
+    "2027_records_with_no_official_announcement": 5,
+    "official_domains_successfully_researched": [
+      "acpc.gujarat.gov.in",
+      "acpdc.gujarat.gov.in",
+      "depwd.gov.in",
+      "education.gujarat.gov.in",
+      "financedepartment.gujarat.gov.in",
+      "gcas.gujgov.edu.in",
+      "gpsc.gujarat.gov.in",
+      "gseb.org",
+      "gssp.gujarat.gov.in",
+      "gsssb.gujarat.gov.in",
+      "kcg.gujarat.gov.in",
+      "medadmgujarat.org",
+      "mysy.gujarat.gov.in",
+      "nta.ac.in",
+      "ojas.gujarat.gov.in",
+      "old26.gtu.ac.in",
+      "result.gseb.org",
+      "scholarships.gov.in",
+      "scholarships.gujarat.gov.in",
+      "shodh.gujarat.gov.in",
+      "sje.gujarat.gov.in",
+      "tribal.gujarat.gov.in",
+      "www.digitalgujarat.gov.in",
+      "www.gtu.ac.in",
+      "www.minorityaffairs.gov.in"
+    ],
+    "important_research_gaps": 8,
+    "note": "Because the preliminary PDF was unavailable, records_corrected and PDF-records reviewed are not computable; new_records_discovered means records created from live official web research in this pass."
+  }
+}

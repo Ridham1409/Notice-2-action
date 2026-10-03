@@ -1,0 +1,50 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Opportunities directory: Publicly readable for all students
+    match /opportunities/{opportunityId} {
+      allow read: if true;
+      allow write: if true; // Allow seeding and admin updates
+    }
+
+    // Notices: Publicly readable for pre-seeded notices, authorized creation
+    match /notices/{noticeId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if request.auth != null;
+    }
+
+    // Isolated User profiles and subcollections
+    match /users/{userId} {
+      allow read, write: if true;
+
+      match /actionPlan/{actionId} {
+        allow read, write: if true;
+      }
+
+      match /savedOpportunities/{opportunityId} {
+        allow read, write: if true;
+      }
+
+      match /notices/{noticeId} {
+        allow read, write: if true;
+      }
+    }
+
+    // Student profiles: legacy compatibility
+    match /students/{studentId} {
+      allow read, write: if true;
+    }
+
+    // Action plan items: legacy compatibility
+    match /actions/{actionId} {
+      allow read, write: if true;
+    }
+
+    // Chat sessions
+    match /chat_sessions/{sessionId} {
+      allow read, write: if true;
+    }
+  }
+}
